@@ -52,21 +52,6 @@ Used **Plotly** to enhance visualizations for deeper insights into sales trends 
 - **Seaborn and Plotly**: For data visualization.
 - **Matplotlib**: For plotting basic visualizations.
 
-## Installation
-To run this project, you need to install the following dependencies:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn plotly
-```
-
-## Usage
-1. Clone the repository.
-2. Ensure you have the required datasets in the appropriate directory.
-3. Run the Python script:
-
-```bash
-python Supply_Chain_Opt.py
-```
 
 ## Results
 - **Mean Squared Error (MSE)**: The error metric used to measure the average squared difference between predicted and actual sales.
@@ -74,8 +59,5 @@ python Supply_Chain_Opt.py
 
 The model achieved reasonable accuracy in predicting weekly sales, with the feature importance analysis highlighting key drivers of sales such as promotions, store type, and seasonal factors.
 
-## Future Work
-- **Hyperparameter Tuning**: Improve the model by tuning hyperparameters of the RandomForestRegressor.
-- **Additional Features**: Incorporate external data like economic indicators or regional events to improve model accuracy.
-- **Optimization**: Use optimization techniques to enhance supply chain management based on sales predictions.
+.
 
