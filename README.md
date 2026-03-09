@@ -1,4 +1,4 @@
-# Supply Chain Optimization with Demand Forecasting
+# Supply Chain demand forecasting and sales analytics
 
 ## Project Overview
 This project aims to optimize the supply chain by predicting weekly sales for various stores using a machine learning approach. We used RandomForestRegressor to model the sales data based on features such as store characteristics, promotions, and external factors. This project provides insights into the drivers of sales and helps in making data-driven decisions for optimizing inventory and supply chain operations.
