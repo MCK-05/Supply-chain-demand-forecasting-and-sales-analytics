@@ -8,10 +8,10 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.preprocessing import StandardScaler
 
 # Load the datasets
-features = pd.read_csv('/Users/alfredoserranofigueroa/Desktop/Github/Supply_Chain_Optimization/features.csv')
-stores = pd.read_csv('/Users/alfredoserranofigueroa/Desktop/Github/Supply_Chain_Optimization/stores.csv')
-test = pd.read_csv('/Users/alfredoserranofigueroa/Desktop/Github/Supply_Chain_Optimization/test.csv')
-train = pd.read_csv('/Users/alfredoserranofigueroa/Desktop/Github/Supply_Chain_Optimization/train.csv')
+features = pd.read_csv('/Users/ELCOT/Downloads/Supply-Chain-Optimization-main/features.csv')
+stores = pd.read_csv('/Users/ELCOT/Downloads/Supply-Chain-Optimization-main/stores.csv')
+test = pd.read_csv('/Users/ELCOT/Downloads/Supply-Chain-Optimization-main/test.csv')
+train = pd.read_csv('/Users/ELCOT/Downloads/Supply-Chain-Optimization-main/train.csv')
 
 #%% Step 2: Data Preprocessing
 # Merging datasets
