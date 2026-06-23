@@ -19,16 +19,16 @@ The project uses four datasets:
 4. **Test.csv**: Test data for evaluating the model.
 
 ## Step-by-Step Process
-# Step 1: Data Loading
+### Step 1: Data Loading
 Loaded the datasets using Pandas and merged them to create a unified dataset containing all the relevant information for each store and date.
 
-# Step 2: Data Preprocessing
+### Step 2: Data Preprocessing
 - **Merging Datasets**: Merged the features, stores, and train datasets.
 - **Handling Missing Values**: Filled missing values for numeric columns with their median and for categorical columns with their mode.
 - **Feature Engineering**: Extracted features such as Year, Month, Week, Day, and DayOfWeek from the Date column for better analysis.
 - **Encoding Categorical Variables**: One-hot encoded categorical variables to make them suitable for machine learning models.
 
-# Step 3: Model Training
+### Step 3: Model Training
 Used the RandomForestRegressor from scikit-learn to train the model on the processed data. The model was trained to predict the Weekly_Sales based on various features.
 
 Step 4: Model Evaluation
