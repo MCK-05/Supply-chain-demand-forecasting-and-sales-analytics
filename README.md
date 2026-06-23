@@ -31,16 +31,16 @@ Loaded the datasets using Pandas and merged them to create a unified dataset con
 ### Step 3: Model Training
 Used the RandomForestRegressor from scikit-learn to train the model on the processed data. The model was trained to predict the Weekly_Sales based on various features.
 
-Step 4: Model Evaluation
+### Step 4: Model Evaluation
 The model was evaluated using:
 
 - **Mean Squared Error (MSE)**: To measure the average squared difference between actual and predicted sales.
 - **R-squared (R²)**: To measure the proportion of variance explained by the model.
 
-Step 5: Feature Importance Analysis
+### Step 5: Feature Importance Analysis
 We plotted the top 10 features that contributed most to the model's predictions, providing insights into the factors driving sales.
 
-Step 6: Visualizations
+### Step 6: Visualizations
 Used Plotly to enhance visualizations for deeper insights into sales trends and feature impacts. The visualizations include:
 
 - **Sales Trend Over Time**: A line plot showing Weekly_Sales over the entire timeframe, which helps understand seasonal patterns and trends.
