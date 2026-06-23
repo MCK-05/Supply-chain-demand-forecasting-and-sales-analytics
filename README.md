@@ -28,11 +28,10 @@ The project uses four datasets:
 
 
 ## Results
-- **Mean Squared Error (MSE)**: The error metric used to measure the average squared difference between predicted and actual sales.
-- **R-squared (R²)**: Indicates how well the features explain the variance in sales.
+- **Mean Squared Error (MSE)**: The error metric used to measure the average squared difference between predicted and actual sales.Mean Squared Error: 12007306.061619846.
+- **R-squared (R²)**: Indicates how well the features explain the variance in sales.R-squared: 0.9769090605697065.
 <img width="1366" height="655" alt="Figure_1" src="https://github.com/user-attachments/assets/3870ca3c-9741-484c-ad69-a08e9365771b" />
-- **Mean Squared Error**: 12007306.061619846.
-- **R-squared**: 0.9769090605697065.
+
 The model achieved reasonable accuracy in predicting weekly sales, with the feature importance analysis highlighting key drivers of sales such as promotions, store type, and seasonal factors.
 
 
